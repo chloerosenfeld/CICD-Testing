@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '4542720a-805c-4353-a312-c93b254e535a'
   imageRepository: 'cardockerizedrobot'
   containerRegistry: 'caruipathrobot.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
