@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '4542720a-805c-4353-a312-c93b254e535a'
-  imageRepository: 'cardockerizedrobot'
+  imageRepository: 'caruipathrobot'
   containerRegistry: 'caruipathrobot.azurecr.io'
   dockerfilePath: 'Dockerfile'
   tag: '$(Build.BuildId)'
